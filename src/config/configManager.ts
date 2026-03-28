@@ -16,6 +16,6 @@ export class ConfigManager {
   }
 
   static getWorkers(): number {
-    return Number(process.env.WORKERS) || 4; 
+    return Number(process.env.WORKERS) || 1; 
   }
 }
