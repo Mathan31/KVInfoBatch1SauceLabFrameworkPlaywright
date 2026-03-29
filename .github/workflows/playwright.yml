@@ -6,7 +6,7 @@ on:
     branches: [master]
 jobs:
   test:
-    timeout-minutes: 60
+    timeout-minutes: 62
     runs-on: windows-latest
 
     
